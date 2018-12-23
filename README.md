@@ -56,16 +56,31 @@ and requires pandoc to be install on your system.
 
 ### Linux
 
-First, try your package manager. Pandoc is in the
-[Debian](https://packages.debian.org/pandoc),
-[Ubuntu](https://packages.ubuntu.com/pandoc),
-[Slackware](https://www.slackbuilds.org/result/?search=pandoc&sv=),
-[Arch](https://www.archlinux.org/packages/community/x86_64/pandoc),
-[Fedora](https://apps.fedoraproject.org/packages/pandoc),
-[NiXOS](https://nixos.org/nixos/packages.html),
-[openSUSE](https://software.opensuse.org/package/pandoc),
-and [gentoo](packages.gentoo.org/package/app-text/pandoc) repositories.
-Note, however, that versions in the repositories are often old.
+ - First, try your package manager. Pandoc is in the
+   [Debian](https://packages.debian.org/pandoc),
+   [Ubuntu](https://packages.ubuntu.com/pandoc),
+   [Slackware](https://www.slackbuilds.org/result/?search=pandoc&sv=),
+   [Arch](https://www.archlinux.org/packages/community/x86_64/pandoc),
+   [Fedora](https://apps.fedoraproject.org/packages/pandoc),
+   [NiXOS](https://nixos.org/nixos/packages.html),
+   [openSUSE](https://software.opensuse.org/package/pandoc),
+   and [gentoo](packages.gentoo.org/package/app-text/pandoc) repositories.
+   Note, however, that versions in the repositories are often old.
+   Distro specific instructions are below.
+
+ - Pandoc also provides a binary package for amd64 architecture on the
+   [download page](https://github.com/jgm/pandoc/releases/latest). This
+   provides both `pandoc` and `pandoc-citeproc`. The executables are statically
+   linked and have no dynamic dependencies or dependencies on external data
+   files. Note: because of the static linking, the pandoc library from this
+   package cannot use lua filters that require external lua modules written
+   in C.
+
+ - For PDF output, you'll need LaTeX. It is recommended to install
+   [TeX Live](https://www.tug.org/texlive/) via your package manager.
+
+See [Installing pandoc](https://pandoc.org/installing.html) for
+further instructions.
 
 #### Ubuntu
 
@@ -96,17 +111,3 @@ recommended.
 
 See [TeX Live](https://wiki.archlinux.org/index.php/TeX_Live) on the Arch wiki
 for more information on the different TeX Live groups available.
-
- - Pandoc provides a binary package for amd64 architecture on the
-   [download page](https://github.com/jgm/pandoc/releases/latest). This
-   provides both `pandoc` and `pandoc-citeproc`. The executables are statically
-   linked and have no dynamic dependencies or dependencies on external data
-   files. Note: because of the static linking, the pandoc library from this
-   package cannot use lua filters that require external lua modules written
-   in C.
-
- - For PDF output, you'll need LaTeX. It is recommended to install
-   [TeX Live](https://www.tug.org/texlive/) via your package manager.
-
-Or see [Installing pandoc](https://pandoc.org/installing.html) for
-further instructions.
