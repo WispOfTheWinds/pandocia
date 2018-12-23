@@ -1,0 +1,19 @@
+{
+  "name": "pandocia",
+  "main": "./lib/pandocia",
+  "version": "0.0.0",
+  "description": "Run pandoc from Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "pandocia:toggle"
+  },
+  "repository": "https://github.com/WispOfTheWinds/pandocia",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "simple-pandoc": "0.2.0"
+  }
+}
