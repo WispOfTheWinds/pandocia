@@ -108,5 +108,5 @@ for more information on the different TeX Live groups available.
  - For PDF output, you'll need LaTeX. It is recommended to install
    [TeX Live](https://www.tug.org/texlive/) via your package manager.
 
-Or see [Installing pandoc](https://pandoc.org/install.html) for
+Or see [Installing pandoc](https://pandoc.org/installing.html) for
 further instructions.
