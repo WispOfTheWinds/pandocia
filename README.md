@@ -9,6 +9,12 @@ and requires pandoc to be install on your system.
 
 ## Installing pandoc on your system
 
+Below is information taken from the Pandoc Installation guide.
+
+See [the full guide](https://pandoc.org/installing.html) for
+further instructions.
+
+
 ### Windows
 
  - There is a package installer at pandoc's
@@ -26,7 +32,7 @@ and requires pandoc to be install on your system.
    [chocolatey](https://chocolatey.org): `choco install pandoc`.
 
  - For PDF output, you'll also need to install LaTeX.
-   We recommend [MiKTeX](http://miktex.org/).
+   [MiKTeX](http://miktex.org/) is recommended.
 
 
 ### macOS
@@ -78,9 +84,6 @@ and requires pandoc to be install on your system.
 
  - For PDF output, you'll need LaTeX. It is recommended to install
    [TeX Live](https://www.tug.org/texlive/) via your package manager.
-
-See [Installing pandoc](https://pandoc.org/installing.html) for
-further instructions.
 
 #### Ubuntu
 
