@@ -4,6 +4,12 @@
   "version": "0.0.0",
   "description": "Run pandoc from Atom",
   "keywords": [
+     "writing",
+     "markdown",
+     "pdf",
+     "html",
+     "pandoc",
+     "convert"
   ],
   "activationCommands": {
     "atom-workspace": "pandocia:toggle"
