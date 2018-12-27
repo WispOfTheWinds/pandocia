@@ -11,9 +11,6 @@
     "pandoc",
     "convert"
   ],
-  "activationCommands": {
-    "atom-workspace": "pandocia:convert"
-  },
   "repository": "https://github.com/WispOfTheWinds/pandocia",
   "license": "MIT",
   "engines": {
