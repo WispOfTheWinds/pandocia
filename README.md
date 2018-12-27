@@ -1,5 +1,7 @@
 # Pandocia
 
+_Currently in alpha stage development_
+
 Convert files between different document formats.
 See [pandoc.org](https://pandoc.org) for more information.
 
