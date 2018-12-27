@@ -1,15 +1,15 @@
 {
   "name": "pandocia",
   "main": "./lib/pandocia",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run pandoc from Atom",
   "keywords": [
-     "writing",
-     "markdown",
-     "pdf",
-     "html",
-     "pandoc",
-     "convert"
+    "writing",
+    "markdown",
+    "pdf",
+    "html",
+    "pandoc",
+    "convert"
   ],
   "activationCommands": {
     "atom-workspace": "pandocia:toggle"
